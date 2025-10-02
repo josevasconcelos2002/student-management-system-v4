@@ -15,10 +15,10 @@ async function loadStudents() {
           <td class="py-3 px-6 text-left">${student.id}</td>
           <td class="py-3 px-6 text-left">${student.name}</td>
           <td class="py-3 px-6 text-left">${student.age}</td>
-          <td >
-            <button>Edit</button>
-            <button>Delete</button>
-            <button>See more</button>
+          <td class="py-3 px-6 text-center space-x-2">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-xs">Edit</button>
+            <button class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-xs">Delete</button>
+            <button class="bg-gray-500 hover:bg-gray-600 text-white px-3 py-1 rounded text-xs">See more</button>
           </td>
         </tr>
       `;
