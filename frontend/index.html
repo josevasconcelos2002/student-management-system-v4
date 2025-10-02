@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Students Management System</title>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-8">
+    <h1 class="text-3xl font-bold text-blue-600 mb-6">Students</h1>
+    <table class="min-w-full bg-white rounded shadow-md">
+    <thead>
+      <tr class="bg-gray-200 text-gray-700 uppercase text-sm leading-normal">
+        <th class="py-3 px-6 text-left">ID</th>
+        <th class="py-3 px-6 text-left">Name</th>
+        <th class="py-3 px-6 text-left">Age</th>
+        <th class="py-3 px-6 text-left"></th>
+      </tr>
+    </thead>
+    <tbody id="studentsTable" class="text-gray-600 text-sm font-light">
+    </tbody>
+  </table>
+  <script src="js/main.js"></script>
+</body>
+</html>
