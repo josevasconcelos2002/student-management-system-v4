@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/students"; // backend Spring Boot v3
+const API_URL = "http://localhost:8080/students";
 
 async function loadStudents() {
   try {
@@ -31,5 +31,4 @@ async function loadStudents() {
   }
 }
 
-// Chama automaticamente ao carregar a página
 document.addEventListener("DOMContentLoaded", loadStudents);
